@@ -1,0 +1,41 @@
+<resources>
+	<string name="app_name">Play2Win</string>
+	<string name="current_score">Your score is</string>
+	<string name="best_score">Your best score is</string>
+	<string name="defaultscore" translatable="false">42</string>
+	<string name="medaille">Medaille</string>
+	<string name="play_button">Start to play</string>
+	<string name="about_button">about</string>
+	<string name="about_back_button">back</string>
+	<string name="play_again">Play Again</string>
+	<string name="total_point">Your Total Point is : </string>
+	<string name="coins">coins</string>
+	<string name="medaille_image" translatable="false">Medaillenimage</string>
+	<string name="mute_button">Mutes the sound</string>
+	<string name="developer">Developer: Lars Harmsen</string>
+	<string name="graphics">Graphics: Lars Harmsen</string>
+	<string name="consulting">Consulting: repat</string>
+	<string name="license">License: MIT</string>
+	<string name="nyan_cat">Nyan Cat was drawn by Christopher Torres and もももも remixed the music by daniwell</string>
+	<string name="source_code">Get the source code here:\nhttps://github.com/cubei/FlappyCow</string>
+	<string name="onscreen_score_text">Score:</string>
+	<string name="onscreen_coin_text">Coins:</string>
+	<string name="on_back_press">Press backbutton again to exit</string>
+	<string name="toast_achievement_50_coins">Achievement unlocked: 50 coins</string>
+	<string name="toast_achievement_toastification">Achievement unlocked: Toastification</string>
+	<string name="toast_achievement_bronze">Achievement unlocked: Bronze</string>
+	<string name="toast_achievement_silver">Achievement unlocked: Silver</string>
+	<string name="toast_achievement_gold">Achievement unlocked: Gold</string>
+
+	<!-- EDIT TEXT SPECIFIC ERRORS -->
+	<string name="empty_field">%s field must not be empty</string>
+	<string name="zero_field">%s value must be grater than zero</string>
+	<string name="email_invalid">%s is not valid</string>
+	<string name="mobile_invalid">%s is not valid</string>
+	<string name="name_invalid">%s is not valid</string>
+	<string name="whitespace_invalid">%s must not contain white space</string>
+	<string name="special_character_invalid">%s must not contain any special or numeric character</string>
+	<string name="invalid_length" formatted="false">%s length must be greater than %d characters</string>
+
+
+</resources>

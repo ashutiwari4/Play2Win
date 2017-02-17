@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	              xmlns:app="http://schemas.android.com/apk/res-auto"
+	              android:layout_width="match_parent"
+	              android:layout_height="match_parent"
+	              android:orientation="vertical"
+	              android:padding="32dp">
+
+
+		<ImageView
+			android:id="@+id/iv_edit_profile_pic"
+			android:layout_width="100dp"
+			android:layout_height="100dp"
+			android:layout_gravity="center"
+			android:layout_marginBottom="8dp"
+			android:src="@drawable/login"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:layout_marginTop="16dp"
+			android:textStyle="italic"
+			android:textColor="#aaa"
+			android:text="Please enter your details"/>
+
+
+		<android.support.design.widget.TextInputLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:paddingLeft="16dp"
+			android:layout_marginTop="16dp"
+			android:paddingRight="16dp"
+			app:errorEnabled="true">
+
+			<ashutosh.bdemo.MEditText
+				android:id="@+id/et_login_username"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_centerVertical="true"
+				android:hint="Username"
+				android:maxLength="15"
+				android:maxLines="1"
+				app:errorType="setToLayout"
+				app:validation="text_not_null|text_white_space|allow_min_length"/>
+
+		</android.support.design.widget.TextInputLayout>
+
+		<android.support.design.widget.TextInputLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:paddingLeft="16dp"
+			android:paddingRight="16dp"
+			app:errorEnabled="true">
+
+			<ashutosh.bdemo.MEditText
+				android:id="@+id/et_login_password"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_centerVertical="true"
+				android:hint="Password"
+				android:inputType="textPassword"
+				android:maxLength="15"
+				app:errorType="setToLayout"
+				app:validation="text_not_null|text_white_space|allow_min_length"/>
+
+		</android.support.design.widget.TextInputLayout>
+
+
+		<android.support.v7.widget.AppCompatButton
+			android:id="@+id/btn_login"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/colorAccent"
+			android:text="Login"
+			android:textAllCaps="false"
+			android:textColor="@android:color/white"/>
+
+	</LinearLayout>
+</ScrollView>
